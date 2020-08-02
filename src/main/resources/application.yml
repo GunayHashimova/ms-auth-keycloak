@@ -1,0 +1,15 @@
+server:
+  port: 8085
+ms:
+  root:
+    url: /ms-auth-keycloak
+
+keycloak:
+  realm: lwm
+  auth-server-url: http://localhost:9090/auth
+  resource: lwm-app
+  credentials:
+    secret: 952900fe-7790-4159-9d83-47d2b673bd7a
+custom:
+  credentials:
+    admin-secret: e6bd1e58-0f62-497f-bc70-7569af4e58e1
